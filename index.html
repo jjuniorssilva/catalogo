@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Catalogo - Deusimar Junior</title>
+  <title>Portifolio - Deusimar Junior</title>
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <!-- Google Fonts -->
@@ -16,13 +16,14 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.min.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="fas fa-burn"></i> Deusimar Junior</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img style="width: 10%;border-radius: 50px;margin-right: 15px;" src="img/perfil2.jpg">Deusimar Junior</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -48,29 +49,47 @@
   <!-- Masthead -->
   <header class="masthead">
     <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Bem-vindos</h1>
-          <hr class="divider my-4">
-        </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Aqui você saberá quem sou, meus meios de contato e um gostinho do que tenho a oferecer, bora?!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Vamos!</a>
-        </div>
+      
+      <div class="row h-100">
+        <div class="s_container">
+          <div class="s_child_left align-items-center justify-content-center text-center"> 
+            <div class="align-self-end">
+              <h1 class="text-uppercase text-white font-weight-bold">Bem-vindos</h1>
+              <hr class="divider my-4">
+            </div>
+            <div class=" align-self-baseline cr-1">
+              <p class="text-white-75 font-weight-light mb-5">Aqui você saberá quem sou, meus meios de contato e um gostinho do que tenho a oferecer, bora?!</p>
+              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Vamos!</a>
+            </div>
+          </div> 
+          <div class="s_child_right"> <img class="boneco_1" src="img/boneco.png"></div> 
+        </div>  
       </div>
+
+
     </div>
   </header>
 
   <!-- About Section -->
   <section class="page-section bg-dark text-white" id="about">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">Quem sou?</h2>
-          <hr class="divider my-4">
-          <p class="text-white-50 mb-4">Meu nome é Deusimar, sou técnico em informática com ênfase na área de design web e programação, sou do estado do Piauí e tenho minhas ações voltadas para a criação de conteúdos gráficos como logos, design de sites, videos e muito mais. </p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Continuar</a>
+      <div class="row">
+        <div class="s_container_2">
+           <div class="s_child_left_2"><img class="boneco_2" src="img/boneco2.png"></div> 
+        <div class="col-lg-8 text-center s_child_ridth_2">
+          <div>
+            <h2 class="text-white mt-0">Quem sou?</h2>
+            <hr class="divider my-4">
+            <p  class="mb-4 font_20">Olá sou Deusimar!</p>
+            <p class=" mb-4 size">Sou técnico em informática com ênfase na área de design web e programação, sou do estado do Piauí e tenho minhas ações voltadas para a criação de conteúdos gráficos como logos, design de sites e muito mais. </p>
+          </div>
+          <div style="float: left;" class="cont_1">
+           <a href="#"><i class="fab fa-facebook-f icon_social"></i></a> </li>
+           <a href="#"><i class="fab fa-instagram icon_social"></i></a></li>
+          </div>
+          <a class="btn btn-primary js-scroll-trigger btn_cont" href="#services">Continuar</a>
         </div>
+      </div>  
       </div>
     </div>
   </section>
@@ -114,195 +133,159 @@
   </section>
 
   <!-- Portfolio Section -->
-  <section id="portfolio">
+  <section id="portfolio" style="background-color:dimgrey;">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="container">
-          <h2 class="text-center mt-0">Logos</h2>
+        <div class="container" style="margin-top: 40px">
+          <p class="text-center mt-0">Portifolio</p>
+          <h2 class="text-center mt-0">Alguns dos meus trabalhos</h2>
           <hr class="divider my-4">
         </div> 
 
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Loja
+        <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="project-name">
+                 <i class="fas fa-search search_icon"></i>
+                </div>
               </div>
-              <div class="project-name">
-                Conceito Store
-              </div>
+            </a>
+            <div class="card-body text-center">
+              <p>Conceito Store </p>
+              <p class="info_card"> Loja Virtual </p>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/2.jpg">
+
+         <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Escudo
-              </div>
               <div class="project-name">
-                Técnico de Informática
+               <i class="fas fa-search search_icon"></i>
               </div>
             </div>
           </a>
+          <div class="card-body text-center">
+            <p>Conceito Store </p>
+            <p class="info_card"> Loja Virtual </p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/3.jpg">
+        </div>
+         <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Escudo
-              </div>
               <div class="project-name">
-                Técnico de Informática
+               <i class="fas fa-search search_icon"></i>
               </div>
             </div>
           </a>
+          <div class="card-body text-center">
+            <p>Conceito Store </p>
+            <p class="info_card"> Loja Virtual </p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/10.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/10.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Site
-              </div>
-              <div class="project-name">
-               eBooking
-              </div>
-            </div>
-          </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/4.jpg">
+         <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Loja
-              </div>
               <div class="project-name">
-                ProAgri
+               <i class="fas fa-search search_icon"></i>
               </div>
             </div>
           </a>
+          <div class="card-body text-center">
+            <p>Conceito Store </p>
+            <p class="info_card"> Loja Virtual </p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/5.jpg">
+        </div>
+         <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
             <div class="portfolio-box-caption">
-             <div class="project-category text-white-50">
-                Logo
-              </div>
               <div class="project-name">
-                Mecatrônica
+               <i class="fas fa-search search_icon"></i>
               </div>
             </div>
           </a>
+          <div class="card-body text-center">
+            <p>Conceito Store </p>
+            <p class="info_card"> Loja Virtual </p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/6.jpg">
+        </div>
+         <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Grêmio Estudantil
-              </div>
+            <div class="portfolio-box-caption">
               <div class="project-name">
-                Ingazeiras
+               <i class="fas fa-search search_icon"></i>
               </div>
             </div>
           </a>
+          <div class="card-body text-center">
+            <p>Conceito Store </p>
+            <p class="info_card"> Loja Virtual </p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/7.jpg">
+        </div>
+         <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+          <a class="portfolio-box" href="img/portfolio/fullsize/7.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/7.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                 Projeto
-              </div>
+            <div class="portfolio-box-caption">
               <div class="project-name">
-                Sirius
+               <i class="fas fa-search search_icon"></i>
               </div>
             </div>
           </a>
+          <div class="card-body text-center">
+            <p>Conceito Store </p>
+            <p class="info_card"> Loja Virtual </p>
+          </div>
         </div>
-         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/8.jpg">
+        </div>
+         <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+          <a class="portfolio-box" href="img/portfolio/fullsize/8.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/8.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-               Projeto Comunitário
-              </div>
+            <div class="portfolio-box-caption">
               <div class="project-name">
-                Compartilhando Vida
+               <i class="fas fa-search search_icon"></i>
               </div>
             </div>
           </a>
+          <div class="card-body text-center">
+            <p>Conceito Store </p>
+            <p class="info_card"> Loja Virtual </p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/9.jpg">
+        </div>
+         <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+          <a class="portfolio-box" href="img/portfolio/fullsize/9.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/9.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Projeto 
-              </div>
+            <div class="portfolio-box-caption">
               <div class="project-name">
-                Ah, lembrei!
+               <i class="fas fa-search search_icon"></i>
               </div>
             </div>
           </a>
+          <div class="card-body text-center">
+            <p>Conceito Store </p>
+            <p class="info_card"> Loja Virtual </p>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/11.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/11.png" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Sistema
-              </div>
-              <div class="project-name">
-                Jarvis
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/12.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/12.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Sistema
-              </div>
-              <div class="project-name">
-                Prime
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/13.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/13.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Sistema 
-              </div>
-              <div class="project-name">
-                Manasch
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/14.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/14.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Sistema 
-              </div>
-              <div class="project-name">
-                Stigma
-              </div>
-            </div>
-          </a>
         </div>
       </div>
     </div> 
@@ -312,110 +295,136 @@
           <h2 class="text-center mt-0">Sites</h2>
           <hr class="divider my-4">
         </div> 
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/Site1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/Site1.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Site de Divulgação
+        <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+            <a class="portfolio-box" href="img/portfolio/fullsize/Site1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/Site1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="project-name">
+                 <i class="fas fa-search search_icon"></i>
+                </div>
               </div>
-              <div class="project-name">
-                I EMINERAD
-              </div>
+            </a>
+            <div class="card-body text-center">
+              <p>I EMINERAD</p>
+              <p class="info_card_site"> Site de Evento </p>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/Site2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/Site2.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Site de Divulgação
+
+        <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+            <a class="portfolio-box" href="img/portfolio/fullsize/Site2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/Site2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="project-name">
+                 <i class="fas fa-search search_icon"></i>
+                </div>
               </div>
-              <div class="project-name">
-                II SEMINFO
-              </div>
+            </a>
+            <div class="card-body text-center">
+              <p>II SEMINFO</p>
+              <p class="info_card_site"> Site de Evento </p>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/Site3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/Site3.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Projeto(IFPI)
+
+        <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+            <a class="portfolio-box" href="img/portfolio/fullsize/Site3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/Site3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="project-name">
+                 <i class="fas fa-search search_icon"></i>
+                </div>
               </div>
-              <div class="project-name">
-                Prime
-              </div>
+            </a>
+            <div class="card-body text-center">
+              <p>PRIME</p>
+              <p class="info_card_site"> API </p>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/Site4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/Site4.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Projeto(IFPI)
+
+        <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+            <a class="portfolio-box" href="img/portfolio/fullsize/Site4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/Site4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="project-name">
+                 <i class="fas fa-search search_icon"></i>
+                </div>
               </div>
-              <div class="project-name">
-                Stigma
-              </div>
+            </a>
+            <div class="card-body text-center">
+              <p>STIGMA</p>
+              <p class="info_card_site"> Auditória Estudantil </p>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/Site5.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/Site5.png" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Projeto(IFPI)
+
+        <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+            <a class="portfolio-box" href="img/portfolio/fullsize/Site5.png">
+              <img class="img-fluid" src="img/portfolio/thumbnails/Site5.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="project-name">
+                 <i class="fas fa-search search_icon"></i>
+                </div>
               </div>
-              <div class="project-name">
-                Manasch
-              </div>
+            </a>
+            <div class="card-body text-center">
+              <p>MANASCH</p>
+              <p class="info_card_site"> Sistema de Gestão </p>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box pd-a" href="img/portfolio/fullsize/Site6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/Site6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Sistema/App (INFOWAY)
+
+        <div class="col-lg-4 col-sm-6"style="padding: 20px">
+          <div class="card bg-card">
+            <a class="portfolio-box" href="img/portfolio/fullsize/Site6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/Site6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="project-name">
+                 <i class="fas fa-search search_icon"></i>
+                </div>
               </div>
-              <div class="project-name">
-                Sirius
-              </div>
+            </a>
+            <div class="card-body text-center">
+              <p>SIRIUS</p>
+              <p class="info_card_site"> Assistência em Socorros</p>
             </div>
-          </a>
+          </div>
         </div>
+
       </div>
     </div>     
   </section>
 
   <!-- Call to Action Section -->
   <section class="page-section bg-dark text-white" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Contato</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">Pronto para começar seu próximo projeto? Ligue ou envie-me um e-mail e entrarei em contato o mais breve possível!</p>
+    <div class="container cont_2">  
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="cont_3">Contato</h2>
+            <hr class="divider my-4">
+            <p class="text-muted mb-5">Pronto para começar seu próximo projeto? Ligue ou envie-me um e-mail e entrarei em contato o mais breve possível!</p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+55 (79) 998138-3196</div>
+
+        <div class="row cont_4">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+            <div>+55 (79) 998138-3196</div>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+            <a class="d-block" href="mailto:juniorrsilvaa.dj@gmail.com">juniorrsilvaa.dj@gmail.com</a>
+          </div>
         </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:juniorrsilvaa.dj@gmail.com">juniorrsilvaa.dj@gmail.com</a>
-        </div>
-      </div>
     </div>
+
+    <img class="boneco_3" src="img/boneco3.png">
   </section>
 
 
