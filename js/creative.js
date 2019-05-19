@@ -20,6 +20,13 @@
     $('.navbar-collapse').collapse('hide');
   });
 
+  $('#btn_1').click(function() {
+   window.location.href = 'https://jjuniorssilva.github.io/I-EncontroMinerad/';
+  });
+  $('#btn_2').click(function() {
+   window.location.href = 'https://jjuniorssilva.github.io/II-Seminfo/';
+  });
+
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
